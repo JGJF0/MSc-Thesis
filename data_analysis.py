@@ -506,8 +506,8 @@ if __name__ == '__main__':
     dataset_df = load_dataset()
 
     # Analysis
-    # visualize_smish_over_time_by_day(dataset_df)
-    # visualize_brand_over_time(dataset_df)
+    visualize_smish_over_time_by_day(dataset_df)
+    visualize_brand_over_time(dataset_df)
     sum_brand_over_time(dataset_df)
     visualize_sender_type_over_time(dataset_df)
     visualize_url_type_over_time(dataset_df)
